@@ -1,5 +1,8 @@
 ---
+import "../styles/global.css";
 
+import Footer from '../components/Footer.astro';
+import About from "../components/About.astro";
 ---
 
 <html lang="en">
@@ -8,9 +11,20 @@
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>acon's personal site, v4</title>
 	</head>
 	<body>
-		<h1>acon's personal site, v4, i guess?</h1>
+		<a href="/">Home</a>
+		<a href="/about/">About</a>
+		<a href="/blog/">Blog</a>
+
+		<div class="flex flex-col justify-center text-center">
+			<h1 class="text-[100px] text-second">acon</h1>
+		</div>
+
+
+		<About />
+
+		<Footer />
 	</body>
 </html>
