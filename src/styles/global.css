@@ -6,6 +6,7 @@ html, body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    font-family: "Atkinson Hyperlegible", sans-serif;
 }
 
 body {
@@ -30,4 +31,30 @@ ul {
     margin-left: 0;
     margin-right: 0;
     padding-left: 40px;
+}
+
+  .atkinson {
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-weight: 100;
+    font-style: normal;
   }
+  
+  .atkinson-hyperlegible-bold {
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .atkinson-hyperlegible-regular-italic {
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .atkinson-hyperlegible-bold-italic {
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  

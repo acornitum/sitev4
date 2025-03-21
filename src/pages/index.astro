@@ -12,18 +12,23 @@ import About from "../components/About.astro";
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		<title>acon's personal site, v4</title>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 	</head>
 	<body>
 		<a href="/">Home</a>
-		<a href="/about/">About</a>
 		<a href="/blog/">Blog</a>
 
 		<div class="flex flex-col justify-center text-center">
 			<h1 class="text-[100px] text-second">acon</h1>
 		</div>
 
-
-		<About />
+		<div class="flex flex-col justify-center items-center">
+			<About/>
+		</div>
+		
 
 		<Footer />
 	</body>
